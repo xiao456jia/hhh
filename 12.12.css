@@ -1,0 +1,43 @@
+body{
+	background-color: black;
+	background-image: url("银魂02.jpg");
+	background-size:cover;
+	background-repeat:repeat-100;
+}
+
+div{
+	position:relative;
+	top:40px;
+}
+img{
+	height: 100px;
+	width:100px;
+	display: block;
+	margin :auto;
+	border-radius: 50%;
+}
+P{
+	text-align: center;
+}
+#container{
+	background-color: white;
+	opacity: 60%;
+
+	height:500px;
+	width :500px;
+
+	margin :auto;
+	top:100px;
+
+	border-radius: 250px;
+}
+#title p{
+	font-size: 30px;
+	font-weight: bold;
+	font-family: : "宋体";
+	color: #67ccff;
+}
+#title:hover{
+	color: #66ccff;
+}
+
