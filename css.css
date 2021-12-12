@@ -1,0 +1,85 @@
+body{
+	background-image: url('星空.jpg');
+  	background-size: cover;
+	/*
+	默认水平或垂直方向平铺以撑满元素，
+	可用background-repeat调整。
+	例：background-repeat:repeat-x;
+	或是直接background-repeat:no-repeat;
+
+	如果图片过大，可以用background-size设置对应的浏览器
+	例：
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+  	-o-background-size: cover;
+	*/
+	background-color: #9fa8da;
+	/*
+	颜色
+	1.开发者模式中找
+	2.https://tool.oschina.net/commons?type=3
+	3.https://www.runoob.com/cssref/css-colors.html
+	*/
+}
+div{
+	position: relative;
+	/*图片定位，不用改*/
+}
+p{
+	font-family: "宋体";
+	/*字体*/
+	text-align: center;
+	/*居中*/
+	font-size: 16px;
+	/*字体大小*/
+	font-weight: bold;
+	/*字体粗细*/
+	color: white;
+	/*
+	缩进
+	text-indent: 25px;
+	*/
+}
+img{
+	width: 100px;
+	height: 100px;
+	/*图片的高度和宽度*/
+	border-radius: 50px;
+	/*当边框圆角半径是图片大小的一半时，就将图片切圆了*/
+	display: block;
+	margin: auto;
+	/*定位居中*/
+}
+#container{
+	background-color: black;
+	opacity: 60%;
+	/*背景颜色和透明度*/
+	top: 100px;
+	margin: auto;
+	/*与上面的距离&居中，类似top可用的有right、left、bottom*/
+	width: 500px;
+	height: 500px;
+	/*宽度与高度*/
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 20px;
+	/*
+	边框的样式、宽度、圆角半径
+	https://www.runoob.com/css/css-border.html
+	*/
+}
+#photo{
+	top: 20px;
+}
+#title{
+	margin: 40px;
+}
+#title p{	
+	margin: 0px;
+	font-family: "黑体";
+	line-height: 50px;
+	font-size: 50px;
+	font-weight: bolder;
+}
+/*这是针对id名为title的div盒子中p元素的*/
+#introduction{}
